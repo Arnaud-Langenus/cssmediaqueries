@@ -1,0 +1,54 @@
+.small {
+    width: 33%;
+}
+.medium {
+    width: 66%;
+}
+
+.large {
+    width: 100%;
+}
+@media only screen and (max-width: 300px) {
+    body {
+        background-color: Red;
+    }
+
+    .small, .medium, .large {
+        display: block;
+    }
+    h1 {
+        font-size: 20px
+    }
+}
+
+@media only screen and (min-width: 301px ) and (max-width: 768px) {
+    body {
+        background-color: Green;
+    }
+
+
+    h1 {
+        font-size: 30px
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    body {
+        background-color: Blue;
+    }
+
+    .small {
+        width: 33%;
+    }
+
+    .medium {
+        width: 33%;
+    }
+
+    .large {
+        width: 33%;
+    }
+    h1 {
+        font-size: 40px
+    }
+}
